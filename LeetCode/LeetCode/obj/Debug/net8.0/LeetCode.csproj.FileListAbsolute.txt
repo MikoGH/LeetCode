@@ -1,0 +1,14 @@
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfoInputs.cache
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfo.cs
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.csproj.CoreCompileInputs.cache
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\bin\Debug\net8.0\LeetCode.exe
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\bin\Debug\net8.0\LeetCode.deps.json
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\bin\Debug\net8.0\LeetCode.runtimeconfig.json
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\bin\Debug\net8.0\LeetCode.dll
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\bin\Debug\net8.0\LeetCode.pdb
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.dll
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\refint\LeetCode.dll
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.pdb
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\LeetCode.genruntimeconfig.cache
+C:\Users\Vlada\Desktop\Folders\Programs\LeetCode\LeetCode\LeetCode\obj\Debug\net8.0\ref\LeetCode.dll
