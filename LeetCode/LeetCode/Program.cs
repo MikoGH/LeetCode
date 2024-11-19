@@ -1,15 +1,32 @@
-﻿namespace LeetCode;
+﻿using LeetCode.T0001_T0500.T0085_MaximalRectangle;
+
+namespace LeetCode;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        //var taskClass = new T_WildcardMatching();
+        var taskClass = new T_MaximalRectangle();
 
-        //var result = taskClass.IsMatch(s, p);
+        var matrix = new char[4][]
+        {
+            new char[] { '1', '0', '1', '0', '0' },
+            new char[] { '1', '0', '1', '1', '1' },
+            new char[] { '1', '1', '1', '1', '1' },
+            new char[] { '1', '0', '0', '1', '0' }
+        };
 
-        //Console.WriteLine(result);
+        //var matrix = new char[3][]
+        //{
+        //    new char[] { '0', '0', '0', '0', '0' },
+        //    new char[] { '0', '0', '0', '0', '0' },
+        //    new char[] { '1', '1', '1', '1', '1' }
+        //};
 
-        //Console.ReadLine();
+        var result = taskClass.MaximalRectangle(matrix);
+
+        Console.WriteLine(result);
+
+        Console.ReadLine();
     }
 }
