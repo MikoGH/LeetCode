@@ -1,11 +1,10 @@
 ﻿using LeetCode.T0001_T0500.T0085_MaximalRectangle;
-using LeetCode.T0501_T1000.T0862_ShortestSubarrayWithSumAtLeastK;
 
 namespace LeetCode.Tests.T0001_T0500;
 
 public class T0085_MaximalRectangle_Tests
 {
-    [Fact(Skip = "Не решено")]
+    [Fact]
     public void Test01()
     {
         var taskClass = new T_MaximalRectangle();
@@ -25,7 +24,7 @@ public class T0085_MaximalRectangle_Tests
         Assert.Equal(expected, result);
     }
 
-    [Fact(Skip = "Не решено")]
+    [Fact]
     public void Test02()
     {
         var taskClass = new T_MaximalRectangle();
@@ -40,6 +39,96 @@ public class T0085_MaximalRectangle_Tests
         var result = taskClass.MaximalRectangle(matrix);
 
         var expected = 5;
+
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Test03()
+    {
+        var taskClass = new T_MaximalRectangle();
+
+        var matrix = new char[7][]
+        {
+            new char[] { '0', '0', '1', '0' },
+            new char[] { '0', '0', '1', '0' },
+            new char[] { '0', '0', '1', '0' },
+            new char[] { '0', '0', '1', '1' },
+            new char[] { '0', '1', '1', '1' },
+            new char[] { '0', '1', '1', '1' },
+            new char[] { '1', '1', '1', '1' }
+        };
+
+        var result = taskClass.MaximalRectangle(matrix);
+
+        var expected = 9;
+
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Test04()
+    {
+        var taskClass = new T_MaximalRectangle();
+
+        var matrix = new char[7][]
+        {
+            new char[] { '0', '0', '0', '0' },
+            new char[] { '0', '0', '0', '0' },
+            new char[] { '0', '0', '0', '0' },
+            new char[] { '0', '1', '0', '1' },
+            new char[] { '0', '1', '1', '1' },
+            new char[] { '0', '1', '1', '1' },
+            new char[] { '1', '1', '1', '1' }
+        };
+
+        var result = taskClass.MaximalRectangle(matrix);
+
+        var expected = 9;
+
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Test05()
+    {
+        var taskClass = new T_MaximalRectangle();
+
+        var matrix = new char[7][]
+        {
+            new char[] { '0', '0', '0', '1' },
+            new char[] { '0', '0', '0', '1' },
+            new char[] { '0', '0', '0', '1' },
+            new char[] { '0', '1', '0', '1' },
+            new char[] { '0', '1', '0', '1' },
+            new char[] { '0', '1', '0', '1' },
+            new char[] { '1', '1', '1', '1' }
+        };
+
+        var result = taskClass.MaximalRectangle(matrix);
+
+        var expected = 7;
+
+        Assert.Equal(expected, result);
+    }
+
+    [Fact]
+    public void Test06()
+    {
+        var taskClass = new T_MaximalRectangle();
+
+        var matrix = new char[5][]
+        {
+            new char[] { '0', '1', '1', '0', '1' },
+            new char[] { '1', '1', '0', '1', '0' },
+            new char[] { '0', '1', '1', '1', '0' },
+            new char[] { '1', '1', '1', '1', '0' },
+            new char[] { '1', '1', '1', '1', '1' }
+        };
+
+        var result = taskClass.MaximalRectangle(matrix);
+
+        var expected = 9;
 
         Assert.Equal(expected, result);
     }
