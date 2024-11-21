@@ -64,9 +64,6 @@ public class T_MaximalRectangle
                     }
                 }
 
-                //if (dp_height[j] > stack.Peek().Item2)
-                //    stack.Push((j, dp_height[j]));
-
                 height = Math.Min(dp_height[j], stack.Peek().Item2);
                 if (height * (j - stack.Peek().Item1 + 1) > max)
                     max = height * (j - stack.Peek().Item1 + 1);
