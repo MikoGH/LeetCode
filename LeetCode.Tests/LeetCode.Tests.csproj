@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="T1001_T1500\" />
-    <Folder Include="T1501_T2000\" />
   </ItemGroup>
 
 </Project>
