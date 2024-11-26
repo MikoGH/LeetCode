@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0085_MaximalRectangle;
+﻿using LeetCode.T2501_T3000.T2924_FindChampionII;
 
 namespace LeetCode;
 
@@ -6,24 +6,17 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var taskClass = new T_MaximalRectangle();
+        var taskClass = new T_FindChampionII();
 
-        var matrix = new char[4][]
+        var matrix = new int[4][]
         {
-            new char[] { '1', '0', '1', '0', '0' },
-            new char[] { '1', '0', '1', '1', '1' },
-            new char[] { '1', '1', '1', '1', '1' },
-            new char[] { '1', '0', '0', '1', '0' }
+            new int[] { 0, 1 },
+            new int[] { 2, 3 },
+            new int[] { 2, 4 },
+            new int[] { 4, 1 }
         };
 
-        //var matrix = new char[3][]
-        //{
-        //    new char[] { '0', '0', '0', '0', '0' },
-        //    new char[] { '0', '0', '0', '0', '0' },
-        //    new char[] { '1', '1', '1', '1', '1' }
-        //};
-
-        var result = taskClass.MaximalRectangle(matrix);
+        var result = taskClass.FindChampion(5, matrix);
 
         Console.WriteLine(result);
 

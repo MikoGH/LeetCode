@@ -7,12 +7,12 @@ public class T_SlidingPuzzle
 {
     int[][] _nextZeroPos = new int[6][]
     {
-        new int[] { 1, 3 },
-        new int[] { 0, 2, 4 },
-        new int[] { 1, 5 },
-        new int[] { 0, 4 },
-        new int[] { 1, 3, 5 },
-        new int[] { 2, 4 }
+    new int[] { 1, 3 },
+    new int[] { 0, 2, 4 },
+    new int[] { 1, 5 },
+    new int[] { 0, 4 },
+    new int[] { 1, 3, 5 },
+    new int[] { 2, 4 }
     };
 
     string _expected = "123450";
@@ -29,8 +29,6 @@ public class T_SlidingPuzzle
         var visited = new HashSet<string>();
         var queue = new Queue<(string, int)>();
         queue.Enqueue((current, 0));
-        var saved = new List<string>();
-        var prev = new List<int>();
         visited.Add(current);
         var countMoves = 0;
         while (queue.Count > 0)
