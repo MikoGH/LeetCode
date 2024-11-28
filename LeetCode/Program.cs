@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2924_FindChampionII;
+﻿using LeetCode.T3001_T3500.T3243_ShortestDistanceAfterRoadAdditionQueriesI;
 
 namespace LeetCode;
 
@@ -6,7 +6,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var taskClass = new T_FindChampionII();
+        var taskClass = new T_ShortestDistanceAfterRoadAdditionQueriesI();
 
         var matrix = new int[4][]
         {
@@ -16,7 +16,7 @@ public class Program
             new int[] { 4, 1 }
         };
 
-        var result = taskClass.FindChampion(5, matrix);
+        var result = taskClass.ShortestDistanceAfterQueries(5, matrix);
 
         Console.WriteLine(result);
 
