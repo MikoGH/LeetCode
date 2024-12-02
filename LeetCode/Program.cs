@@ -1,4 +1,4 @@
-﻿using LeetCode.T3001_T3500.T3243_ShortestDistanceAfterRoadAdditionQueriesI;
+﻿using System.Drawing;
 
 namespace LeetCode;
 
@@ -6,19 +6,30 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var taskClass = new T_ShortestDistanceAfterRoadAdditionQueriesI();
+        var point1 = new Point(1, 2);
+        var point2 = new Point(2, 1);
 
-        var matrix = new int[4][]
-        {
-            new int[] { 0, 1 },
-            new int[] { 2, 3 },
-            new int[] { 2, 4 },
-            new int[] { 4, 1 }
-        };
+        var hash12 = point1.GetHashCode() + point2.GetHashCode();
+        //var hash12 = point2.GetHashCode() + point1.GetHashCode();
 
-        var result = taskClass.ShortestDistanceAfterQueries(5, matrix);
+        Console.WriteLine($"{hash12}");
+        Console.WriteLine($"{point1.GetHashCode()},{point1.GetHashCode()},{point2.GetHashCode()}");
+        Console.WriteLine($"{1.GetHashCode()}, {2.GetHashCode()}");
+        Console.WriteLine($"{HashCode.Combine(1)}, {HashCode.Combine(2)}");
 
-        Console.WriteLine(result);
+        //var taskClass = new T_ShortestDistanceAfterRoadAdditionQueriesI();
+
+        //var matrix = new int[4][]
+        //{
+        //    new int[] { 0, 1 },
+        //    new int[] { 2, 3 },
+        //    new int[] { 2, 4 },
+        //    new int[] { 4, 1 }
+        //};
+
+        //var result = taskClass.ShortestDistanceAfterQueries(5, matrix);
+
+        //Console.WriteLine(result);
 
         Console.ReadLine();
     }
