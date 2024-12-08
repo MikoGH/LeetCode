@@ -1,4 +1,5 @@
-﻿using System.Drawing;
+﻿using LeetCode.T2501_T3000.T2554_MaximumNumberOfIntegersToChooseFromARangeI;
+using System.Drawing;
 
 namespace LeetCode;
 
@@ -6,18 +7,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var point1 = new Point(1, 2);
-        var point2 = new Point(2, 1);
-
-        var hash12 = point1.GetHashCode() + point2.GetHashCode();
-        //var hash12 = point2.GetHashCode() + point1.GetHashCode();
-
-        Console.WriteLine($"{hash12}");
-        Console.WriteLine($"{point1.GetHashCode()},{point1.GetHashCode()},{point2.GetHashCode()}");
-        Console.WriteLine($"{1.GetHashCode()}, {2.GetHashCode()}");
-        Console.WriteLine($"{HashCode.Combine(1)}, {HashCode.Combine(2)}");
-
-        //var taskClass = new T_ShortestDistanceAfterRoadAdditionQueriesI();
+        var taskClass = new T_MaximumNumberOfIntegersToChooseFromARangeI();
 
         //var matrix = new int[4][]
         //{
@@ -27,9 +17,11 @@ public class Program
         //    new int[] { 4, 1 }
         //};
 
-        //var result = taskClass.ShortestDistanceAfterQueries(5, matrix);
+        var banned = new int[] { 1, 6, 5 };
 
-        //Console.WriteLine(result);
+        var result = taskClass.MaxCount(banned, 5, 6);
+
+        Console.WriteLine(result);
 
         Console.ReadLine();
     }
