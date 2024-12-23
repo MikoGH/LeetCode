@@ -1,5 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2554_MaximumNumberOfIntegersToChooseFromARangeI;
-using System.Drawing;
+﻿using LeetCode.T0501_T1000.T0503_NextGreaterElementII;
 
 namespace LeetCode;
 
@@ -7,23 +6,15 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        var taskClass = new T_MaximumNumberOfIntegersToChooseFromARangeI();
+        var taskClass = new T_NextGreaterElementII();
 
-        //var matrix = new int[4][]
-        //{
-        //    new int[] { 0, 1 },
-        //    new int[] { 2, 3 },
-        //    new int[] { 2, 4 },
-        //    new int[] { 4, 1 }
-        //};
+        var nums = new int[] { 1, 2, 3, 4, 3 };
 
-        var banned = new int[] { 1, 6, 5 };
+        var result = taskClass.NextGreaterElements(nums);
 
-        var result = taskClass.MaxCount(banned, 5, 6);
+        //Console.WriteLine(result);
 
-        Console.WriteLine(result);
-
-        Console.ReadLine();
+        //Console.ReadLine();
     }
 }
 
