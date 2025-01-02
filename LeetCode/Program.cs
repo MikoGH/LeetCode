@@ -1,16 +1,14 @@
-﻿using LeetCode.T0501_T1000.T0503_NextGreaterElementII;
-
-namespace LeetCode;
+﻿namespace LeetCode;
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        var taskClass = new T_NextGreaterElementII();
+        //var taskClass = new Q1_MinimumOperationstoMakeColumnsStrictlyIncreasing();
 
-        var nums = new int[] { 1, 2, 3, 4, 3 };
+        //var nums = new int[4][] { new int[] { 3, 2 }, new int[] { 1, 3}, new int[] {3, 4}, new int[] {0, 1} };
 
-        var result = taskClass.NextGreaterElements(nums);
+        //var result = taskClass.MinimumOperations(nums);
 
         //Console.WriteLine(result);
 

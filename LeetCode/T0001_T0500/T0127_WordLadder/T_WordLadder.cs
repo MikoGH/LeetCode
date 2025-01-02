@@ -1,15 +1,14 @@
 ﻿namespace LeetCode.T0001_T0500.T0126_WordLadderII;
 
-public class T_WordLadderII
+public class T_WordLadder
 {
-
     private class Node
     {
         public long[] PatternHashes { get; set; }
         public string Word { get; set; }
         public int Depth { get; set; } = int.MaxValue;
         //public int Count { get; set; } = 0;
-        public List<Node> PreviousNodes { get; set; } = new List<Node>();
+        //public List<Node> PreviousNodes { get; set; } = new List<Node>();
 
         public Node(string word)
         {
@@ -34,10 +33,10 @@ public class T_WordLadderII
     private static long k = 29;
     private static long[] pows = Enumerable.Range(0, 10).Select(x => (long)Math.Pow(k, x)).ToArray();
 
-    public IList<IList<string>> FindLadders(string beginWord, string endWord, IList<string> wordList)
+    public int LadderLength(string beginWord, string endWord, IList<string> wordList)
     {
         if (!wordList.Contains(endWord))
-            return new List<IList<string>>();
+            return 0;
 
         if (!wordList.Contains(beginWord))
             wordList.Add(beginWord);
@@ -64,31 +63,29 @@ public class T_WordLadderII
         while (queue.Count > 0)
         {
             var node = queue.Dequeue();
-
-            if (node.Equals(nodes[endWord]))
-                break;
-
             foreach (var hash in node.PatternHashes)
             {
                 foreach (var word in connections[hash])
                 {
+                    if (word.Equals(endWord))
+                        return node.Depth + 1;
+
                     if (word == node.Word || nodes[word].Depth < node.Depth + 1 || nodes[word].Depth != int.MaxValue)
                         continue;
 
-                    var visited = nodes[word].Depth != int.MaxValue;
+                    //var visited = nodes[word].Depth != int.MaxValue;
                     nodes[word].Depth = node.Depth + 1;
-                    nodes[word].PreviousNodes.Add(node);
+                    //nodes[word].PreviousNodes.Add(node);
                     //nodes[word].Count += node.Count;
-                    if (!visited)
-                        queue.Enqueue(nodes[word]);
+                    //if (!visited)
+                    queue.Enqueue(nodes[word]);
                 }
             }
         }
 
-        if (nodes[endWord].Depth == int.MaxValue)
-            return new List<IList<string>>();
+        //if (nodes[endWord].Depth == int.MaxValue)
+        return 0;
 
         //return nodes[endWord].Depth + 1;
-        throw new NotImplementedException();
     }
 }
