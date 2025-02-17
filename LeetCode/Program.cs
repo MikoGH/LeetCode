@@ -4,11 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        //var taskClass = new Q1_MinimumOperationstoMakeColumnsStrictlyIncreasing();
+        //var taskClass = new Q04();
 
-        //var nums = new int[4][] { new int[] { 3, 2 }, new int[] { 1, 3}, new int[] {3, 4}, new int[] {0, 1} };
-
-        //var result = taskClass.MinimumOperations(nums);
+        //var result = taskClass.Sol("abaacbaecebce", "ba*c*ce");
 
         //Console.WriteLine(result);
 
