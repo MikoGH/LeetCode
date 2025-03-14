@@ -1,4 +1,4 @@
-﻿using LeetCode.T0501_T1000.T0773_SlidingPuzzle;
+﻿using LeetCode.T0501_T1000.T0701_T0800.T0773_SlidingPuzzle;
 
 namespace LeetCode.Tests.T0501_T1000;
 

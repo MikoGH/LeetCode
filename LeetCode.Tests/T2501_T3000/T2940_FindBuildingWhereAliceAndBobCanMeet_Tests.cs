@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2940_FindBuildingWhereAliceAndBobCanMeet;
+﻿using LeetCode.T2501_T3000.T2901_T3000.T2940_FindBuildingWhereAliceAndBobCanMeet;
 
 namespace LeetCode.Tests.T2501_T3000;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2054_TwoBestNonOverlappingEvents;
+﻿using LeetCode.T2001_T2500.T2001_T2100.T2054_TwoBestNonOverlappingEvents;
 
 namespace LeetCode.Tests.T2001_T2500;
 

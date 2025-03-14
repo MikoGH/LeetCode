@@ -1,4 +1,4 @@
-﻿using LeetCode.T1501_T2000.T1639_NumberOfWaysToFormATargetStringGivenADictionary;
+﻿using LeetCode.T1501_T2000.T1601_T1700.T1639_NumberOfWaysToFormATargetStringGivenADictionary;
 
 namespace LeetCode.Tests.T1501_T2000;
 

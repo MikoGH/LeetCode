@@ -1,4 +1,4 @@
-﻿using LeetCode.T1001_T1500.T1368_MinimumCostToMakeAtLeastOneValidPathInAGrid;
+﻿using LeetCode.T1001_T1500.T1301_T1400.T1368_MinimumCostToMakeAtLeastOneValidPathInAGrid;
 
 namespace LeetCode.Tests.T1001_T1500;
 

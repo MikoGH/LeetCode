@@ -1,4 +1,4 @@
-﻿using LeetCode.T1001_T1500.T1092_ShortestCommonSupersequence;
+﻿using LeetCode.T1001_T1500.T1001_T1100.T1092_ShortestCommonSupersequence;
 
 namespace LeetCode.Tests.T1001_T1500;
 

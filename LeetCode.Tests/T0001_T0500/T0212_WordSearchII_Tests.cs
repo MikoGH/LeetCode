@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0212_WordSearchII;
+﻿using LeetCode.T0001_T0500.T0201_T0300.T0212_WordSearchII;
 
 namespace LeetCode.Tests.T0001_T0500;
 

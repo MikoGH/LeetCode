@@ -1,4 +1,4 @@
-﻿using LeetCode.T1501_T2000.T1861_RotatingTheBox;
+﻿using LeetCode.T1501_T2000.T1801_T1900.T1861_RotatingTheBox;
 
 namespace LeetCode.Tests.T1501_T2000;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0041_FirstMissingPositive;
+﻿using LeetCode.T0001_T0500.T0001_T0100.T0041_FirstMissingPositive;
 
 namespace LeetCode.Tests.T0001_T0500;
 

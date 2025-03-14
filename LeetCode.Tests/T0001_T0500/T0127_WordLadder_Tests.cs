@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0126_WordLadderII;
+﻿using LeetCode.T0001_T0500.T0101_T0200.T0127_WordLadder;
 
 namespace LeetCode.Tests.T0001_T0500;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.T3001_T3500.T3011_FindIfArrayCanBeSorted;
+﻿using LeetCode.T3001_T3500.T3001_T3100.T3011_FindIfArrayCanBeSorted;
 
 namespace LeetCode.Tests.T3001_T3500;
 

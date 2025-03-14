@@ -1,4 +1,4 @@
-﻿using LeetCode.T3001_T3500.T3163_StringCompressionIII;
+﻿using LeetCode.T3001_T3500.T3101_T3200.T3163_StringCompressionIII;
 
 namespace LeetCode.Tests.T3001_T3500;
 

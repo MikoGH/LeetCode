@@ -1,4 +1,4 @@
-﻿using LeetCode.T0501_T1000.T0689_MaximumSumOf3NonOverlappingSubarrays;
+﻿using LeetCode.T0501_T1000.T0601_T0700.T0689_MaximumSumOf3NonOverlappingSubarrays;
 
 namespace LeetCode.Tests.T0501_T1000;
 

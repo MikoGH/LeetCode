@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0003_LongestSubstringWithoutRepeatingCharacter;
+﻿using LeetCode.T0001_T0500.T0001_T0100.T0003_LongestSubstringWithoutRepeatingCharacter;
 
 namespace LeetCode.Tests.T0001_T0500;
 

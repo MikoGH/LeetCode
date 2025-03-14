@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2981_FindLongestSpecialSubstringThatOccursThriceI;
+﻿using LeetCode.T2501_T3000.T2901_T3000.T2981_FindLongestSpecialSubstringThatOccursThriceI;
 
 namespace LeetCode.Tests.T2501_T3000;
 

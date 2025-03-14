@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2577_MinimumTimeToVisitACellInAGrid;
+﻿using LeetCode.T2501_T3000.T2501_T2600.T2577_MinimumTimeToVisitACellInAGrid;
 
 namespace LeetCode.Tests.T2501_T3000;
 

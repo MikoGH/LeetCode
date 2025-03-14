@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2461_MaximumSumOfDistinctSubarraysWithLengthK;
+﻿using LeetCode.T2001_T2500.T2401_T2500.T2461_MaximumSumOfDistinctSubarraysWithLengthK;
 
 namespace LeetCode.Tests.T2001_T2500;
 

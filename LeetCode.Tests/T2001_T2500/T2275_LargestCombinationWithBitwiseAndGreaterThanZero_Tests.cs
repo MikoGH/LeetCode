@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2275_LargestCombinationWithBitwiseAndGreaterThanZero;
+﻿using LeetCode.T2001_T2500.T2201_T2300.T2275_LargestCombinationWithBitwiseAndGreaterThanZero;
 
 namespace LeetCode.Tests.T2001_T2500;
 

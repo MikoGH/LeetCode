@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2516_TakeKOfEachCharacterFromLeftAndRight;
+﻿using LeetCode.T2501_T3000.T2501_T2600.T2516_TakeKOfEachCharacterFromLeftAndRight;
 
 namespace LeetCode.Tests.T2501_T3000;
 

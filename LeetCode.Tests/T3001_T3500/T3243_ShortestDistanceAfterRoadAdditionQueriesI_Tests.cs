@@ -1,4 +1,4 @@
-﻿using LeetCode.T3001_T3500.T3243_ShortestDistanceAfterRoadAdditionQueriesI;
+﻿using LeetCode.T3001_T3500.T3201_T3300.T3243_ShortestDistanceAfterRoadAdditionQueriesI;
 
 namespace LeetCode.Tests.T3001_T3500;
 

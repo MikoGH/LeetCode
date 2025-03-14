@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2601_PrimeSubtractionOperation;
+﻿using LeetCode.T2501_T3000.T2501_T2600.T2601_PrimeSubtractionOperation;
 
 namespace LeetCode.Tests.T2501_T3000;
 

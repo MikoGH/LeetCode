@@ -1,4 +1,4 @@
-﻿using LeetCode.T1501_T2000.T1792_MaximumAveragePassRatio;
+﻿using LeetCode.T1501_T2000.T1701_T1800.T1792_MaximumAveragePassRatio;
 
 namespace LeetCode.Tests.T1501_T2000;
 

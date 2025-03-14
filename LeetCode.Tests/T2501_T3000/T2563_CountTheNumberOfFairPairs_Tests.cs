@@ -1,4 +1,4 @@
-﻿using LeetCode.T2501_T3000.T2563_CountTheNumberOfFajrPairs;
+﻿using LeetCode.T2501_T3000.T2501_T2600.T2563_CountTheNumberOfFairPairs;
 
 namespace LeetCode.Tests.T2501_T3000;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2097_ValidArrangementOfPairs;
+﻿using LeetCode.T2001_T2500.T2001_T2100.T2097_ValidArrangementOfPairs;
 
 namespace LeetCode.Tests.T2001_T2500;
 

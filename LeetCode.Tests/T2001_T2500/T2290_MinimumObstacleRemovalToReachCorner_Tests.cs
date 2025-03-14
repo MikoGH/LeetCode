@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2290_MinimumObstacleRemovalToReachCorner;
+﻿using LeetCode.T2001_T2500.T2201_T2300.T2290_MinimumObstacleRemovalToReachCorner;
 
 namespace LeetCode.Tests.T2001_T2500;
 

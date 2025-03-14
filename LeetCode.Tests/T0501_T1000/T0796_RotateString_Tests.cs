@@ -1,4 +1,4 @@
-﻿using LeetCode.T0501_T1000.T0796_RotateString;
+﻿using LeetCode.T0501_T1000.T0701_T0800.T0796_RotateString;
 
 namespace LeetCode.Tests.T0501_T1000;
 

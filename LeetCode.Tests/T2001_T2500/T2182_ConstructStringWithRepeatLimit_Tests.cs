@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2182_ConstructStringWithRepeatLimit;
+﻿using LeetCode.T2001_T2500.T2101_T2200.T2182_ConstructStringWithRepeatLimit;
 
 namespace LeetCode.Tests.T2001_T2500;
 

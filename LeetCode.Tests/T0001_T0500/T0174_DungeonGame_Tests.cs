@@ -1,4 +1,4 @@
-﻿using LeetCode.T0001_T0500.T0174_DungeonGame;
+﻿using LeetCode.T0001_T0500.T0101_T0200.T0174_DungeonGame;
 
 namespace LeetCode.Tests.T0001_T0500;
 

@@ -1,4 +1,4 @@
-﻿using LeetCode.T2001_T2500.T2127_MaximumEmployeesToBeInvitedToAMeeting;
+﻿using LeetCode.T2001_T2500.T2101_T2200.T2127_MaximumEmployeesToBeInvitedToAMeeting;
 
 namespace LeetCode.Tests.T2001_T2500;
 

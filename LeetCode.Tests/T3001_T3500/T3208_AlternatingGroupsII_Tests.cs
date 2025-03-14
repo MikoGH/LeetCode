@@ -1,4 +1,4 @@
-﻿using LeetCode.T3001_T3500.T3208_AlternatingGroupsII;
+﻿using LeetCode.T3001_T3500.T3201_T3300.T3208_AlternatingGroupsII;
 
 namespace LeetCode.Tests.T3001_T3500;
 
