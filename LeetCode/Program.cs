@@ -4,13 +4,36 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        for (int n = 1; n < 20; n++)
+        {
+            var nums = Enumerable.Range(1, 4).Select(x => Random.Shared.Next(1,4)).ToList();
+        //List<int> nums = new() { 4, 5, 16, 17 };
+            Console.WriteLine(string.Join(", ", nums));
+            var hash = new HashSet<int>();
+            var twohash = new HashSet<int>();
+            for (int i = 0; i < nums.Count; i++)
+            {
+                for (int j = i; j < nums.Count; j++)
+                {
+                    for (int k = j; k < nums.Count; k++)
+                    {
+                        hash.Add(nums[i] ^ nums[j] ^ nums[k]);
+                        twohash.Add(nums[i] ^ nums[j]);
+                        //Console.WriteLine($"{nums[i]} XOR {nums[j]} XOR {nums[k]} = {nums[i] ^ nums[j] ^ nums[k]}");
+                    }
+                }
+            }
+
+            Console.WriteLine($"{hash.Count}");
+            Console.WriteLine($"{twohash.Count}");
+        }
         //var taskClass = new Q04();
 
         //var result = taskClass.Sol("abaacbaecebce", "ba*c*ce");
 
         //Console.WriteLine(result);
 
-        //Console.ReadLine();
+        Console.ReadLine();
     }
 }
 
